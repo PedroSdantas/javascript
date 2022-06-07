@@ -1,7 +1,6 @@
-function gerar(){
-    num = document.getElementById('num')
-    res = document.getElementById('tabuada')
-    resu = Number(num)
+function tabuada(){
+    let num = document.getElementById('txtn')
+    let tab = document.getElementById('seltab')
     
 
 }

@@ -12,14 +12,18 @@
         <h1>Tabuada</h1>
     </header>
 
-    
     <section>
-        <p>Número:
-            <input type="number" name="num" id="num">
+        <div>
+            <p>Número:
+                <input type="number" name="num" id="txtn">
+                <input type="button" value="Gerar Tabuada" onclick="tabuada()">
+            </p>
+        </div>
 
-            <input type="button" value="Gerar Tabuada" onclick="gerar()">
-        </p>
-        <select name="tabuada" id="tabuada">Digite um número acima</select>
+        <div>
+            <select name="tabuada" id="seltab"></select>
+        </div>
+        
     </section>
     <script src="script.js"></script>
 </body>
