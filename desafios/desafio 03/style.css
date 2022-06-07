@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*agora*/
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+    padding: 30px;
+  
+}
+body{
+    background-color: rgb(60, 127, 208);font: normal 15pt Arial;
+}
+
+section{
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.562);
+}
+
+input{
+    margin: 10px;
+}
+
+
+
+footer{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-top: 30px;
+    font-size: small;
+}
