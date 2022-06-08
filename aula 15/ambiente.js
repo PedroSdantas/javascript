@@ -5,3 +5,7 @@ num.sort()
 console.log(num)
 console.log(`O vetor tem ${num.length} posições.`)
 console.log(`O primeiro valor do vetor é ${num[0]}`)
+
+for(let pos = 0; pos<num.length; pos++){
+    console.log(`Na posição ${pos} temos: ${num[pos]}`)
+}
