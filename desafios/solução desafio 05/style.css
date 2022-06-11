@@ -1,0 +1,41 @@
+@charset "UTF-8"
+/*working now*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(60, 127, 208);
+    font: normal 15pt Arial;
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+section{
+    background-color: white;
+    width: 500px;
+    min-height: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto;
+
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.281);
+}
+
+select{
+    width: 150px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+    font-weight: bolder;
+    margin-top: 50px;
+}
