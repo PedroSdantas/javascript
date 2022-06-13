@@ -20,7 +20,7 @@ function inList(n, l) {
 }
 
 function adicionar(){
-    if(isNumber(num.value) && inList(num.value, valores)){
+    if(isNumber(num.value) && !inList(num.value, valores)){
     window.alert('Tudo ok!')
     
     } else {
